@@ -17,12 +17,14 @@ exports.validarLogin = function(req, res, next) {
         } else {
           if (configDB.estado) {
             req.database = configDB;
-            const texto = validate.validarNumero(passw);
-            res.json({
-              ok: passw,
-              texto
-            });
-            // next();
+            /*** VALIDACIONES */
+            // const texto = validate.validarNumero(passw);
+            // res.json({
+            //   ok: passw,
+            //   texto
+            // });
+            /** END VALIDACIONES */
+            next();
           } else {
             res.json({
               ok: false,
