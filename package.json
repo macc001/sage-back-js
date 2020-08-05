@@ -16,7 +16,7 @@
     "cors": "^2.8.5",
     "dayjs": "^1.8.16",
     "express": "^4.17.1",
-    "express-fileupload": "^1.1.6-alpha.5",
+    "express-fileupload": "^1.1.9",
     "jwt-simple": "^0.5.6",
     "object-hash": "^2.0.0",
     "pg": "^7.12.1",
